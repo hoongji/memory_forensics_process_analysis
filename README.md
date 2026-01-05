@@ -112,7 +112,7 @@ LISTENING 상태의 포트만 확인되었으며,
 
 ![windows.netscan](screenshots/netscan1.png)
 ![LISTENING 상태 포트들](screenshots/netscan2.png)
-(screenshots/netscan3.png)
+![svchost.exe](screenshots/netscan3.png)
 
 ---
 
