@@ -34,13 +34,13 @@ volatility3의 *windows.info* 플러그인을 사용하여
 **Windows 7 SP1 x64** 환경임을 확인하였다. 
 
 ![windows.info 결과](screenshots/windows_info.png)
-(screenshots/windows_info_1.png)
+![결과2](screenshots/windows_info_1.png)
 
 해당 덤프에는 VMware 메타데이터 파일(VMSS / VMSN)이 제공되지 않았으나,
 커널 및 DTB 식별이 정상적으로 이루어져 주요 Volatility 플러그인 분석은 문제없이 수행 가능하였다. 
 
-![DTB_info](screenshots/windows_info_2.png)
-![Kernel base](screenshots/windows_info_3.png)
+![DTB_결과](screenshots/windows_info_2.png)
+![Kernel base 결과](screenshots/windows_info_3.png)
 
 ---
 
