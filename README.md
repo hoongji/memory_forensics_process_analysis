@@ -50,7 +50,7 @@ Volatility3의 *windows.pslist* 플러그인을 사용하여
 메모리 상 실행 중인 프로세스 목록을 확인하였다. 
 
 분석 결과, 
-**System(PID 4)**을 시작으로 
+**System**(**PID4**)을 시작으로 
 **smss.exe -> wininit.exe -> services.exe / lsass.exe** 로 이어지는
 Windows 핵심 시스템 프로세스들이 
 정상적인 부모-자식 관계와 생성 시간(create time)흐름을 유지하고 있음을 확인하였다.
