@@ -23,6 +23,16 @@ Windows 메모리 덤프 파일을 분석하고,
 - Volatility Framework: 2.27.1
 - Memory Dump Type: VMware VMEM
 
+
+### 데이터 출처
+
+- 메모리 덤프 출처: TryHackMe – Memory Forensics 실습 과제
+- 제공 형태: Windows 메모리 덤프 (VMEM)
+- 시나리오: 가상의 사용자(John) 환경에서 수집된 메모리 덤프
+- 목적: 디지털 포렌식 분석 흐름 학습 및 사용자 행위 분석 연습
+- 비고: 본 덤프는 교육 목적의 공개 자료임
+
+
 ---
 
 ## 3. 운영체제 정보 확인(windows.info)
