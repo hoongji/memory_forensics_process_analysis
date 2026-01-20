@@ -1,7 +1,7 @@
 # Windows Memory Forensics: Normal System Behavior Analysis
 
 Tryhackme에서 제공된 Windows 메모리 덤프를 대상으로 Volatility 3를 사용해 프로세스 실행 흐름, 사용자 명령 실행, 네트워크 통신 흔적을 분석하고
-해당 덤프가 '정상적인 사용자 활동 기반 메모리' 임을 검증한 사례 분석 프로젝트
+해당 덤프가 **정상적인 사용자 활동 기반 메모리** 임을 검증한 사례 분석 프로젝트
 
 ---
 
