@@ -1,19 +1,14 @@
-# memory_forensics_process_analysis
-Volatility 3를 사용한 Windows 메모리 포렌식 분석
-
+# Windows Memory Forensics: Normal System Behavior Analysis
+Tryhackme에서 제공된 Windows 메모리 덤프를 대상으로 Volatility 3를 사용해 프로세스 실행 흐름, 사용자 명령 실행, 네트워크 통신 흔적을 분석하고 
+해당 덤프가 '정상적인 사용자 활동 기반 메모리' 임을 검증한 사례 분석 프로젝트
 ---
 
 ## 1. 프로젝트 개요 
-본 프로젝는 Volatility3 프레임워크를 활용하여 
-Windows 메모리 덤프 파일을 분석하고, 
-프로세스 실행 프름, 명령 실행 여부, 네트워크 통신 흔적을 종합적으로 확인하는 것을 목적으로 한다. 
+본 프로젝는 TryHackMe에서 제공된 Windows 메모리 덤프 파일을 대상으로,
+해당 메모리가 정상적인 사용자 활동 기반으로 생성된 덤프인지 여부를 검증하는 것을 목표로 한 메모리 포렌식 분석 사례이다.
 
-- 분석 대상: Windows 7 SP1 x64 메모리 덤프(VMware VMEM)
-- 분석 도구: volatility3
-- 분석 목적:
-  - 정상적인 Windows 부팅 및 로그인 흐름 검증
-  - 명령 실행 및 콘솔 사용 흔적 확인
-  - 외부 네트워크 통신 여부 확인
+Volatility3 프레임워크를 활용하여 
+시스템 부팅 이후의 프로세스 실행 흐름, 사용자에 의해 실행된 명령 프롬프트 및 실행 이력, 외부 네트워크 통신 흔적 을 단계적을 분석했다. 
 
 ---
 
@@ -21,7 +16,7 @@ Windows 메모리 덤프 파일을 분석하고,
 - Host OS: Windows
 - Python: 3.10.11
 - Volatility Framework: 2.27.1
-- Memory Dump Type: VMware VMEM
+- Memory Dump Type: Windows 7 SP1 x64 메모리 덤프(VMware VMEM)
 
 
 ### 데이터 출처
