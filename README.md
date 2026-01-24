@@ -27,7 +27,7 @@ Volatility3 프레임워크를 활용하여
 - 제공 형태: Windows 메모리 덤프 (VMEM)
 - 시나리오: 가상의 사용자(John) 환경에서 수집된 메모리 덤프
 - 목적: 디지털 포렌식 분석 흐름 학습 및 사용자 행위 분석 연습 (해당 덤프는 교육 목적의 공개 자료)
-- 참고 링크: https://tryhackme.com/
+- 참고 링크: [https://tryhackme.com/](https://tryhackme.com/room/memoryforensics)
 
 ---
 
